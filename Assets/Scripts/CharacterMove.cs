@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CharacterMove : MonoBehaviour
 {
+    [SerializeField] private KeyCode UP;
     public float jumpPower;
     public float speed;
     bool isJump;

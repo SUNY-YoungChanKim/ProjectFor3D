@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class CameraMove : MonoBehaviour
 {
+    [SerializeField] private GameObject Target;
     Transform playerTransform;
     Vector3 offset;
     // Start is called before the first frame update
     void Awake()
     {
-        playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
+        playerTransform = Target.transform;
         offset = transform.position - playerTransform.position;
     }
 
