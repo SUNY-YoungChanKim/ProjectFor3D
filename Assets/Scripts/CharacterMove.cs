@@ -4,29 +4,34 @@ using UnityEngine;
 
 public class CharacterMove : MonoBehaviour
 {
-    [SerializeField] private KeyCode UP;
+    [SerializeField] private KeyCode LEFT;
+    [SerializeField] private KeyCode RIGHT;
+    [SerializeField] private KeyCode JUMP;
     public float jumpPower;
     public float speed;
     bool isJump;
     Rigidbody rb;
-
+    
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         isJump = false;
+        // 이동시 Z축 포지션 잠그고 XYZ축 로테이션 잠금
+        rb.constraints = RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotation;
+        
     }
     void Update()
     { 
   
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(LEFT))
         {
             this.transform.Translate(-speed * Time.deltaTime, 0, 0, Space.World);
         }
-        else if (Input.GetKey(KeyCode.RightArrow))
+        else if (Input.GetKey(RIGHT))
         {
             this.transform.Translate(speed * Time.deltaTime, 0, 0, Space.World);
         }
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(JUMP))
         {
             if (!isJump)
             {

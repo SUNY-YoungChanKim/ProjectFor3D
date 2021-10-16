@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -423,7 +423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eb4f9af08cd4ffca07abde1989f23a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Target: {fileID: 0}
+  Target: {fileID: 1169006987}
 --- !u!1 &915929651 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4696332899195620369, guid: 9eb2645a491c5254caf0d08ccdc6684e, type: 3}
@@ -523,6 +523,23 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9eb2645a491c5254caf0d08ccdc6684e, type: 3}
   m_PrefabInstance: {fileID: 1848349844}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1169006988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169006987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d48cffa4788554d31ba5a5a71c78dfa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LEFT: 276
+  RIGHT: 275
+  JUMP: 32
+  jumpPower: 5
+  speed: 0.5
 --- !u!143 &1169006989
 CharacterController:
   m_ObjectHideFlags: 0
@@ -532,7 +549,7 @@ CharacterController:
   m_GameObject: {fileID: 1169006987}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Height: 4.63
   m_Radius: 1.33
@@ -541,6 +558,22 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0.09, y: 1.95, z: 0}
+--- !u!54 &1169006991
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169006987}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 120
+  m_CollisionDetection: 0
 --- !u!1 &1217717853
 GameObject:
   m_ObjectHideFlags: 0
