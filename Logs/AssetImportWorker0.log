@@ -22,27 +22,27 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51237
+51993
 Successfully changed project path to: /Users/jjhh/Documents/GitHub/ProjectFor3D
 /Users/jjhh/Documents/GitHub/ProjectFor3D
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 66.56 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 49.92 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.20f1 (41c4e627c95f)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/jjhh/Documents/GitHub/ProjectFor3D/Assets
 GfxDevice: creating device client; threaded=0
-2021-10-17 18:38:51.241 Unity[2793:187501] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
-2021-10-17 18:38:51.241 Unity[2793:187501] Metal devices available: 2
-2021-10-17 18:38:51.241 Unity[2793:187501] 0: AMD Radeon Pro 560X (high power)
-2021-10-17 18:38:51.241 Unity[2793:187501] 1: Intel(R) UHD Graphics 630 (low power)
-2021-10-17 18:38:51.243 Unity[2793:187501] Using device AMD Radeon Pro 560X (high power)
+2021-10-17 21:13:17.592 Unity[3518:256283] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
+2021-10-17 21:13:17.592 Unity[3518:256283] Metal devices available: 2
+2021-10-17 21:13:17.592 Unity[3518:256283] 0: AMD Radeon Pro 560X (high power)
+2021-10-17 21:13:17.592 Unity[3518:256283] 1: Intel(R) UHD Graphics 630 (low power)
+2021-10-17 21:13:17.592 Unity[3518:256283] Using device AMD Radeon Pro 560X (high power)
 Initializing Metal device caps: AMD Radeon Pro 560X
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56793
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56518
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.20f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -50,52 +50,52 @@ Register platform support module: /Applications/Unity/Hub/Editor/2020.3.20f1/Uni
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.20f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.20f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.20f1/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.005334 seconds.
+Registered in 0.001023 seconds.
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 41.58 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 46.76 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.533 seconds
+- Completed reload, in  4.486 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4533ms)
-		BeginReloadAssembly (43ms)
+	ReloadAssembly (4486ms)
+		BeginReloadAssembly (40ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (500ms)
-			LoadAssemblies (46ms)
+		EndReloadAssembly (485ms)
+			LoadAssemblies (39ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (185ms)
+			SetupTypeCache (172ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (209ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (214ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (42ms)
-				BeforeProcessingInitializeOnLoad (28ms)
-				ProcessInitializeOnLoadAttributes (101ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				RefreshPlugins (47ms)
+				BeforeProcessingInitializeOnLoad (26ms)
+				ProcessInitializeOnLoadAttributes (104ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007992 seconds.
+Registered in 0.001848 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 46.56 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 47.41 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libdl
@@ -119,37 +119,37 @@ Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.so
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.bundle
-- Completed reload, in  1.390 seconds
+- Completed reload, in  1.310 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1392ms)
-		BeginReloadAssembly (148ms)
+	ReloadAssembly (1312ms)
+		BeginReloadAssembly (154ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (1182ms)
-			LoadAssemblies (114ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1092ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (363ms)
+			SetupTypeCache (346ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (392ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (418ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (47ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (250ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (264ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.001842 seconds.
+Validating Project structure ... 0.001986 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.002417 seconds.
+Upgrading shader files ...0.002506 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -163,14 +163,14 @@ Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.66 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 243.8 MB.
-System memory in use after: 243.7 MB.
+System memory in use before: 243.6 MB.
+System memory in use after: 243.4 MB.
 
 Unloading 155 unused Assets to reduce memory usage. Loaded Objects now: 3204.
-Total: 3.051631 ms (FindLiveObjects: 0.234245 ms CreateObjectMapping: 0.097844 ms MarkObjects: 2.516285 ms  DeleteObjects: 0.202629 ms)
+Total: 3.299271 ms (FindLiveObjects: 0.262263 ms CreateObjectMapping: 0.114998 ms MarkObjects: 2.709568 ms  DeleteObjects: 0.211585 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -184,486 +184,57 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Animation/CharacterWalk.anim
-  artifactKey: Guid(c215dc605b07e49a58994b1f5140ebc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/CharacterWalk.anim using Guid(c215dc605b07e49a58994b1f5140ebc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fda60a8a3b32636e6fb1e97e4f35c65') in 1.095867 seconds 
-  Import took 1.100760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2605.918877 seconds.
-  path: Assets/Animation/MainCharacter 1.controller
-  artifactKey: Guid(1d97a8018d142454085e33eb55ebeedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/MainCharacter 1.controller using Guid(1d97a8018d142454085e33eb55ebeedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8b9fd645d38b9e546b81fff20809b5') in 0.336234 seconds 
-  Import took 0.342343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.382246 seconds.
-  path: Assets/Animation/MainCharacter.controller
-  artifactKey: Guid(5fa259dc052a7294fac13e9926c57db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/MainCharacter.controller using Guid(5fa259dc052a7294fac13e9926c57db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8780e52a293099018ca6b4a61a37a2') in 0.005181 seconds 
-  Import took 0.009758 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.820698 seconds.
-  path: Assets/Animation/CharacterWalk.anim
-  artifactKey: Guid(c215dc605b07e49a58994b1f5140ebc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/CharacterWalk.anim using Guid(c215dc605b07e49a58994b1f5140ebc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01afd38f546ed59f56fdb965dca31b10') in 0.006987 seconds 
-  Import took 0.011585 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002232 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libdl
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.bundle
-- Completed reload, in  1.323 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1323ms)
-		BeginReloadAssembly (170ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (1084ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (350ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (380ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (125ms)
-				ProcessInitializeOnLoadAttributes (240ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2638 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 245.1 MB.
-System memory in use after: 245.4 MB.
-
-Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 3207.
-Total: 3.101758 ms (FindLiveObjects: 0.227112 ms CreateObjectMapping: 0.092949 ms MarkObjects: 2.764670 ms  DeleteObjects: 0.016479 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 33.453032 seconds.
-  path: Assets/Animation/CharacterStand.anim
-  artifactKey: Guid(c215dc605b07e49a58994b1f5140ebc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/CharacterStand.anim using Guid(c215dc605b07e49a58994b1f5140ebc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aaee45f9d5f28221f53bd0e00f4e68c') in 0.016034 seconds 
-  Import took 0.020386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 433.390352 seconds.
   path: Assets/Animation/CharacterStanding.anim
   artifactKey: Guid(62e3bb7a5c46949d9942390d35814146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/CharacterStanding.anim using Guid(62e3bb7a5c46949d9942390d35814146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695af421ddd13e1c824c2a1df4a6f493') in 0.002893 seconds 
-  Import took 0.007210 seconds .
+Start importing Assets/Animation/CharacterStanding.anim using Guid(62e3bb7a5c46949d9942390d35814146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac79a1bc904f79bf9617c49d3aac4b8') in 0.778902 seconds 
+  Import took 0.783860 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.169668 seconds.
+  Time since last request: 1.999119 seconds.
+  path: Assets/Animation/Character.anim
+  artifactKey: Guid(85d15019705937646abc0e22e9f7c662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Character.anim using Guid(85d15019705937646abc0e22e9f7c662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d12295cc105b94af2e395584c4fc81') in 0.004270 seconds 
+  Import took 0.008731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.417757 seconds.
+  path: Assets/Presets/MainCharacter.prefab
+  artifactKey: Guid(6ecd0589b5d2e544da727cea476d5d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/MainCharacter.prefab using Guid(6ecd0589b5d2e544da727cea476d5d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3c27ff533df535d64c8a373f3a2fad') in 0.865422 seconds 
+  Import took 0.898424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 294.156534 seconds.
   path: Assets/Animation/MainCharacter.controller
   artifactKey: Guid(5fa259dc052a7294fac13e9926c57db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/MainCharacter.controller using Guid(5fa259dc052a7294fac13e9926c57db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f2fb3f1f41b46caa8d48d3e43d0c1c') in 0.002876 seconds 
-  Import took 0.007561 seconds .
+Start importing Assets/Animation/MainCharacter.controller using Guid(5fa259dc052a7294fac13e9926c57db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f2fb3f1f41b46caa8d48d3e43d0c1c') in 0.175584 seconds 
+  Import took 0.180992 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005766 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libdl
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.bundle
-- Completed reload, in  1.344 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1344ms)
-		BeginReloadAssembly (176ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (73ms)
-		EndReloadAssembly (1097ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (367ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (373ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (129ms)
-				ProcessInitializeOnLoadAttributes (230ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2638 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 245.5 MB.
-System memory in use after: 245.7 MB.
-
-Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3209.
-Total: 3.119099 ms (FindLiveObjects: 0.233459 ms CreateObjectMapping: 0.094070 ms MarkObjects: 2.771254 ms  DeleteObjects: 0.019551 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005286 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.48 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libdl
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.bundle
-- Completed reload, in  1.598 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1598ms)
-		BeginReloadAssembly (181ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (79ms)
-		EndReloadAssembly (1331ms)
-			LoadAssemblies (89ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (431ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (473ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (157ms)
-				ProcessInitializeOnLoadAttributes (296ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.78 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2638 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 245.7 MB.
-System memory in use after: 245.9 MB.
-
-Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3211.
-Total: 3.468276 ms (FindLiveObjects: 0.465418 ms CreateObjectMapping: 0.140706 ms MarkObjects: 2.832019 ms  DeleteObjects: 0.029425 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013534 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libdl
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.bundle
-- Completed reload, in  1.363 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1363ms)
-		BeginReloadAssembly (177ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (79ms)
-		EndReloadAssembly (1120ms)
-			LoadAssemblies (112ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (336ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (390ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (133ms)
-				ProcessInitializeOnLoadAttributes (242ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.69 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2638 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 246.0 MB.
-System memory in use after: 246.2 MB.
-
-Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3213.
-Total: 2.782742 ms (FindLiveObjects: 0.218429 ms CreateObjectMapping: 0.095218 ms MarkObjects: 2.447357 ms  DeleteObjects: 0.021194 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3567.431265 seconds.
+  Time since last request: 83.249539 seconds.
+  path: Assets/Animation/CharacterStanding.anim
+  artifactKey: Guid(62e3bb7a5c46949d9942390d35814146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/CharacterStanding.anim using Guid(62e3bb7a5c46949d9942390d35814146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695af421ddd13e1c824c2a1df4a6f493') in 0.002077 seconds 
+  Import took 0.006275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1342.916095 seconds.
+  path: Assets/Animation/CharacterStanding.anim
+  artifactKey: Guid(62e3bb7a5c46949d9942390d35814146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/CharacterStanding.anim using Guid(62e3bb7a5c46949d9942390d35814146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad97110a9e146e5634b9d339c957d7f') in 0.002294 seconds 
+  Import took 0.007499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.234054 seconds.
   path: Assets/Animation/B_Core.controller
   artifactKey: Guid(938599e5592f3434d8547c073d86da33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/B_Core.controller using Guid(938599e5592f3434d8547c073d86da33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5258f60ec0fad69d8bce1e19e249481') in 0.015932 seconds 
-  Import took 0.021420 seconds .
+Start importing Assets/Animation/B_Core.controller using Guid(938599e5592f3434d8547c073d86da33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51225682543bc6d09214a3b04953343') in 0.004029 seconds 
+  Import took 0.009335 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 4.951379 seconds.
-  path: Assets/Animation/MainCharacter.controller
-  artifactKey: Guid(5fa259dc052a7294fac13e9926c57db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/MainCharacter.controller using Guid(5fa259dc052a7294fac13e9926c57db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516b6c39dff62e62bf4169ad42eadc6b') in 0.003581 seconds 
-  Import took 0.008357 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.806555 seconds.
-  path: Assets/Animation/CharacterStanding.anim
-  artifactKey: Guid(62e3bb7a5c46949d9942390d35814146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/CharacterStanding.anim using Guid(62e3bb7a5c46949d9942390d35814146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0339d6a207e88ff4b5f1e04b21e303b') in 0.002450 seconds 
-  Import took 0.007948 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008993 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libdl
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/libsubstance_link.dylib.bundle
-- Completed reload, in  1.409 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1409ms)
-		BeginReloadAssembly (189ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (73ms)
-		EndReloadAssembly (1154ms)
-			LoadAssemblies (120ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (347ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (400ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (131ms)
-				ProcessInitializeOnLoadAttributes (254ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.77 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2638 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 246.2 MB.
-System memory in use after: 246.4 MB.
-
-Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3215.
-Total: 2.910514 ms (FindLiveObjects: 0.228091 ms CreateObjectMapping: 0.100663 ms MarkObjects: 2.563238 ms  DeleteObjects: 0.017864 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
