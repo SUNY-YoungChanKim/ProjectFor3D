@@ -428,7 +428,8 @@ MonoBehaviour:
   RIGHT: 275
   JUMP: 273
   jumpPower: 1
-  speed: 1
+  speed: 15
+  AnimationSpeed: 10
 --- !u!54 &919132148462938772
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1390,15 +1391,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6147758209532604588, guid: 6ecd0589b5d2e544da727cea476d5d34, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.8621
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 6147758209532604588, guid: 6ecd0589b5d2e544da727cea476d5d34, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.8621
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 6147758209532604588, guid: 6ecd0589b5d2e544da727cea476d5d34, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.8621
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 6147758209532604588, guid: 6ecd0589b5d2e544da727cea476d5d34, type: 3}
       propertyPath: m_LocalPosition.x

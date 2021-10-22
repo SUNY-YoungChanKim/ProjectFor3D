@@ -7,10 +7,13 @@ public class CharacterMove : MonoBehaviour
     [SerializeField] private KeyCode LEFT;
     [SerializeField] private KeyCode RIGHT;
     [SerializeField] private KeyCode JUMP;
-    public float jumpPower;
-    public float speed;
-    bool isJump;
-    Rigidbody rb;
+   [SerializeField] private float jumpPower;
+    [SerializeField] private float speed;
+     [SerializeField] private float AnimationSpeed=1.0f;
+    private bool isJump;
+    private Rigidbody rb;
+    private Animator AnimationManager; 
+    private float MovingState=0;
     
     void Start()
     {
@@ -18,6 +21,10 @@ public class CharacterMove : MonoBehaviour
         isJump = false;
         // 이동시 Z축 포지션 잠그고 XYZ축 로테이션 잠금
         rb.constraints = RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotation;
+
+        AnimationManager = this.GetComponent<Animator>();
+
+
         
     }
     void Update()
@@ -25,13 +32,16 @@ public class CharacterMove : MonoBehaviour
   
         if (Input.GetKey(LEFT))
         {
-            this.transform.Translate(-speed * Time.deltaTime, 0, 0, Space.World);
+            this.transform.position += new Vector3(-speed * Time.deltaTime, 0, 0);
+            MovingState=Mathf.MoveTowards(MovingState,1,Time.deltaTime*AnimationSpeed);
+            
         }
         else if (Input.GetKey(RIGHT))
         {
-            this.transform.Translate(speed * Time.deltaTime, 0, 0, Space.World);
+            this.transform.position +=new Vector3(speed * Time.deltaTime, 0, 0);
+            MovingState=Mathf.MoveTowards(MovingState,1,Time.deltaTime*AnimationSpeed);
         }
-        if (Input.GetKey(JUMP))
+        else if (Input.GetKey(JUMP))
         {
             if (!isJump)
             {
@@ -40,13 +50,15 @@ public class CharacterMove : MonoBehaviour
             }
            
         }
+        else
+        {
+            MovingState=Mathf.MoveTowards(MovingState,0,Time.deltaTime*AnimationSpeed);
+        }
+        AnimationManager.SetFloat("MovingState",MovingState);
     }
 
     void FixedUpdate()
     {
-        float h = Input.GetAxisRaw("Horizontal");
-        float v = Input.GetAxisRaw("Vertical");
-        rb.AddForce(new Vector3(h, v, 0), ForceMode.Impulse);
     }
 
     void OnCollisionStay(Collision collision)
