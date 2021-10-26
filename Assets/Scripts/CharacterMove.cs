@@ -7,6 +7,7 @@ public class CharacterMove : MonoBehaviour
     [SerializeField] private KeyCode LEFT;
     [SerializeField] private KeyCode RIGHT;
     [SerializeField] private KeyCode JUMP;
+    [SerializeField] private KeyCode DASH;
    [SerializeField] private float jumpPower;
     [SerializeField] private float speed;
      [SerializeField] private float AnimationSpeed=1.0f;
@@ -14,6 +15,7 @@ public class CharacterMove : MonoBehaviour
     private Rigidbody rb;
     private Animator AnimationManager; 
     private float MovingState=0;
+    private string  State="Stand";
     
     void Start()
     {
@@ -29,43 +31,86 @@ public class CharacterMove : MonoBehaviour
     }
     void Update()
     { 
-  
         if (Input.GetKey(LEFT))
         {
-            this.transform.position += new Vector3(-speed * Time.deltaTime, 0, 0);
-            MovingState=Mathf.MoveTowards(MovingState,1,Time.deltaTime*AnimationSpeed);
-            
+             this.transform.localRotation= Quaternion.Euler(0, -80.842f,0);
+            if(Input.GetKey(DASH))
+            {
+                this.transform.position += new Vector3(-speed*2 * Time.deltaTime, 0, 0);
+                State="Run";
+            }
+            else 
+            {
+                this.transform.position += new Vector3(-speed * Time.deltaTime, 0, 0);
+                State="Walk";
+            }
         }
         else if (Input.GetKey(RIGHT))
         {
-            this.transform.position +=new Vector3(speed * Time.deltaTime, 0, 0);
-            MovingState=Mathf.MoveTowards(MovingState,1,Time.deltaTime*AnimationSpeed);
+            this.transform.localRotation= Quaternion.Euler(0, 123.842f,0);
+            if(Input.GetKey(DASH))
+            {
+                this.transform.position += new Vector3(speed*2 * Time.deltaTime, 0, 0);
+                State="Run";
+            }
+            else
+            {
+                this.transform.position +=new Vector3(speed * Time.deltaTime, 0, 0);
+                State="Walk";
+            }
         }
-        else if (Input.GetKey(JUMP))
+        else if(State!="Jump")
+        {
+            State="Stand";
+        }
+        if (Input.GetKey(JUMP))
         {
             if (!isJump)
             {
                 isJump = true;
                 this.rb.AddForce(new Vector3(0, jumpPower, 0), ForceMode.Impulse);
+                State="Jump";
+                AnimationManager.SetBool("IsJump",true);
             }
-           
         }
-        else
+
+
+        if(State=="Walk")
         {
-            MovingState=Mathf.MoveTowards(MovingState,0,Time.deltaTime*AnimationSpeed);
+            MovingState=Mathf.MoveTowards(MovingState,1,Time.deltaTime*AnimationSpeed);
+            AnimationManager.SetFloat("MovingState",MovingState);
         }
-        AnimationManager.SetFloat("MovingState",MovingState);
+        else if(State=="Run")
+        {
+            MovingState=Mathf.MoveTowards(MovingState,2,Time.deltaTime*AnimationSpeed);
+            AnimationManager.SetFloat("MovingState",MovingState);
+        }
+        else if( State=="Stand")
+        {
+            MovingState=Mathf.MoveTowards(MovingState,0,Time.deltaTime*AnimationSpeed); 
+            AnimationManager.SetFloat("MovingState",MovingState); 
+        }
     }
 
     void FixedUpdate()
     {
     }
 
-    void OnCollisionStay(Collision collision)
+    private void OnCollisionEnter(Collision other) 
     {
-        if (collision.gameObject.name == "Floor")
+    
+        if(other.gameObject.tag=="Floor") 
         {
-            isJump = false;
+            isJump=false;
+            AnimationManager.SetBool("IsJump",false);
+        }  
+    }
+    private void OnCollisionExit(Collision other) 
+    {
+      
+        if(other.gameObject.tag=="Floor")
+        {
+            isJump=true;
         }
     }
 }
