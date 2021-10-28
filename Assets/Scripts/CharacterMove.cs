@@ -11,11 +11,13 @@ public class CharacterMove : MonoBehaviour
    [SerializeField] private float jumpPower;
     [SerializeField] private float speed;
      [SerializeField] private float AnimationSpeed=1.0f;
+     [SerializeField] private AudioSource WalkSound,JumpSound;
+    [SerializeField] private string  State="Stand";
     private bool isJump;
     private Rigidbody rb;
     private Animator AnimationManager; 
     private float MovingState=0;
-    private string  State="Stand";
+
     
     void Start()
     {
@@ -37,12 +39,12 @@ public class CharacterMove : MonoBehaviour
             if(Input.GetKey(DASH))
             {
                 this.transform.position += new Vector3(-speed*2 * Time.deltaTime, 0, 0);
-                State="Run";
+                if(State!="Jump")State="Run";
             }
             else 
             {
                 this.transform.position += new Vector3(-speed * Time.deltaTime, 0, 0);
-                State="Walk";
+                 if(State!="Jump")State="Walk";
             }
         }
         else if (Input.GetKey(RIGHT))
@@ -51,12 +53,12 @@ public class CharacterMove : MonoBehaviour
             if(Input.GetKey(DASH))
             {
                 this.transform.position += new Vector3(speed*2 * Time.deltaTime, 0, 0);
-                State="Run";
+                if(State!="Jump") State="Run";
             }
             else
             {
                 this.transform.position +=new Vector3(speed * Time.deltaTime, 0, 0);
-                State="Walk";
+                 if(State!="Jump")State="Walk";
             }
         }
         else if(State!="Jump")
@@ -71,6 +73,9 @@ public class CharacterMove : MonoBehaviour
                 this.rb.AddForce(new Vector3(0, jumpPower, 0), ForceMode.Impulse);
                 State="Jump";
                 AnimationManager.SetBool("IsJump",true);
+                JumpSound.Play();
+                WalkSound.Stop();
+      
             }
         }
 
@@ -78,17 +83,22 @@ public class CharacterMove : MonoBehaviour
         if(State=="Walk")
         {
             MovingState=Mathf.MoveTowards(MovingState,1,Time.deltaTime*AnimationSpeed);
+            WalkSound.pitch=2.0f;
+            if(WalkSound.isPlaying!=true)WalkSound.Play();
             AnimationManager.SetFloat("MovingState",MovingState);
         }
         else if(State=="Run")
         {
             MovingState=Mathf.MoveTowards(MovingState,2,Time.deltaTime*AnimationSpeed);
+            WalkSound.pitch=3.0f;
+            if(WalkSound.isPlaying!=true)WalkSound.Play();
             AnimationManager.SetFloat("MovingState",MovingState);
         }
         else if( State=="Stand")
         {
             MovingState=Mathf.MoveTowards(MovingState,0,Time.deltaTime*AnimationSpeed); 
             AnimationManager.SetFloat("MovingState",MovingState); 
+            WalkSound.Stop();
         }
     }
 
@@ -102,6 +112,7 @@ public class CharacterMove : MonoBehaviour
         if(other.gameObject.tag=="Floor") 
         {
             isJump=false;
+            State="Stand";
             AnimationManager.SetBool("IsJump",false);
         }  
     }
